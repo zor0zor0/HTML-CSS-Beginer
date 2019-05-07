@@ -1,0 +1,50 @@
+header{
+  width: 960px;
+  height: 80px;
+  margin: auto;
+  color: black;
+}
+.menu-header{
+  float: left;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+}
+.iteam{
+  float: left;
+  height: 20px;
+  border-right: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  display: inline;
+  list-style: none;
+  
+}
+.menu-header li:last-child {
+  border-right: none;
+}
+
+.content{
+  width: 960px;
+  height: 200px;
+  margin: auto;
+  background:blue;
+  text-decoration: black;
+  text-align: center;
+  line-height: 200px;
+
+}
+#footer{
+  width: 960px;
+  height: 90px;
+  margin: auto;
+  background:red;
+  text-decoration: black;
+  text-align: center;
+  line-height: 90px;
+
+}
