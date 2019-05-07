@@ -1,33 +1,48 @@
 header{
   width: 960px;
-  height: 80px;
   margin: auto;
   color: black;
+  background-color: #e54e54;
+  height: 50px;
+
 }
 .menu-header{
   float: left;
-  width: 100%;
-  height: 50px;
   text-align: center;
   margin: 0;
   padding: 0;
-  display: inline;
   list-style: none;
-}
-.iteam{
-  float: left;
-  height: 20px;
-  border-right: 2px solid black;
-  text-align: center;
-  padding: 10px;
-  display: inline;
-  list-style: none;
-  
-}
-.menu-header li:last-child {
-  border-right: none;
+
+  line-height: 50px;
 }
 
+.menu-header > li {
+  float: left;
+}
+
+.menu-header > li > a{
+  border-right: 1px solid black;
+  float: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: black
+}
+
+.menu-header > li:last-child > a {
+  border-right: 0;
+}
+
+.search {
+  float:right;
+  padding-right: 10px;
+  line-height: 50px;
+}
+
+
+
+.fa fa-search{
+  float: right;
+}
 .content{
   width: 960px;
   height: 200px;
